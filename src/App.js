@@ -398,7 +398,7 @@ function ReceiptModal({ sale, onClose }) {
       format: 'a4'
     });
     const imgWidth = 190; // mm
-    const pageHeight = 297;
+    // const pageHeight = 297;
     const imgHeight = (canvas.height * imgWidth) / canvas.width;
     let position = 0;
 
